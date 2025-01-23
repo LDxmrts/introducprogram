@@ -11,8 +11,8 @@ int main() {
     Decremento (--)
     Pós-Decremento a--
     Pré-Decremento --a
-    */
-   /*
+    
+   
    //Incremento
    int numero1 = 1;
    printf ("Antes do incremento: %d\n", numero1);
