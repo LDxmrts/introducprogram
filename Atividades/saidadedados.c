@@ -18,5 +18,8 @@ int main(){
 %e: Imprime um número de ponto flutuante na notação científica.
 %c: Imprime um único caractere.
 %s: Imprime uma cadeia (string) de caracteres.
+%u: unsigned int
+%ld: long int
+%lld: long long int
 */
 }

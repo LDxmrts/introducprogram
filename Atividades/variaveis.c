@@ -12,6 +12,7 @@ int main(){
     int _teste;
     int 2naopode; //não pode iniciar com numeros
     int int; //não pode palavras reservadas
+    
     */
     printf ("Olá, mundo!\n");
 
