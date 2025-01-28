@@ -7,10 +7,12 @@ int main(){
     float altura = 1.75;
     char opcao = 'S';
     char nome[20] = "lucas";
+    unsigned long int populacao1 = 4294967295;
     printf("Idade: %d\n", idade);
     printf ("Altura: %f\n", altura);
     printf ("Opção: %c\n", opcao);
     printf ("Nome: %s\n", nome);
+    printf ("Valor: %lu\n", populacao1);
 /*
 %d: Imprime um inteiro no formato decimal.
 %i: Equivalente a %d.
