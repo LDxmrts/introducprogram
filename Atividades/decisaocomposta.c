@@ -4,7 +4,7 @@
 
 int main (){
 
-    int numero1=30, numero2=20, numero=2;
+    int numero1=30, numero2=20, numero=2, nota;
     
 
     if (numero1 > numero2){
@@ -21,6 +21,14 @@ int main (){
     } else {
 
         printf ("O número é impar\n");
+    }
+
+    if (nota >= 65) {
+
+        printf ("Você passou\n");
+    } else {
+
+        printf ("Se lascou, vai recuperação kkkk");
     }
 
 
