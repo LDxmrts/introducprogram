@@ -16,19 +16,20 @@ int main (){
 
     if (idade <= 18 || idade >=60)
     {
-        if (renda < 2000){
-
-            printf ("Você tem direito ao desconto\n");
+        if (renda < 2000)
+        {
+            printf ("Você atende a todos os critérios\n");
 
         } else {
 
-            printf ("Você não tem direito ao desconto devido a renda\n");
+            printf ("Você não atende ao critério renda\n");
 
         }
-        printf ("Aceito com relação a idade\n");
+        
+
     } else {
 
-        printf ("Você não atende aos critérios devido à idade\n");
+        printf ("Você não atende ao critério idade\n");
 
     }
 
