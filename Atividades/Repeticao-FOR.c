@@ -13,7 +13,7 @@ int main () {
 
 
     }
-
+    //numeros pares
     for (int j = 1; j <= 20; j++){
         if (j % 2 == 0){
 
@@ -21,6 +21,21 @@ int main () {
 
 
         }
+
+    //incremento de 10 em 10
+    for (int k = 0; k <=100; k += 10){
+        printf ("%d\n", k);
+
+    }
+
+    //Decremento de 10 em 10
+    for (int l = 100; l >= 0; l -= 10){
+
+        printf ("%d\n", l);
+
+
+
+    }
 
 
 
