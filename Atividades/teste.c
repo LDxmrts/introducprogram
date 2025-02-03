@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    unsigned long int num,nam;
+    unsigned long int num,nam,compara;
     int selecao;
     
     printf("Digite um número: ");
@@ -18,6 +18,9 @@ int main() {
     switch (selecao){
 
         case 1:
+
+        compara = num > nam ? 1 : 0;
+
         if (num > nam){
 
             printf ("%lu é o maior\n", num);
@@ -38,9 +41,6 @@ int main() {
 
 
     }
-    
-
-
     
     return 0;
 }
