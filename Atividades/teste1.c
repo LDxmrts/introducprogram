@@ -1,9 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int idade = 12;
+    ind=1;
 
-    printf (idade<18?"Menor de idade":"Maior de idade");
+    while (ind<5){
+
+        scanf ("%d", &num);
+        controle++;
+
+    }
 
 
 
