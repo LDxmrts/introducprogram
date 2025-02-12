@@ -74,4 +74,52 @@ int main() {
     printf("Número de elementos pares: %d\n", evenCount);
     printf("Número de elementos ímpares: %d\n", oddCount);
 
+    //|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+    int matriz3[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
+    //Substituição condicional de elementos
+
+    for (int o = 0; o < 3; o++) {      // Loop externo para as linhas
+        for (int p = 0; p < 3; p++) {  // Loop interno para as colunas
+            if (matriz3[o][p] % 3 == 0) {
+                matriz3[o][p] = -1; // Substitui múltiplos de 3 por -1
+            }
+        }
+    }
+
+    printf ("\n");
+ 
+    // Impressão da matriz modificada
+    for (int o = 0; o < 3; o++) {      // Loop para imprimir cada linha
+        for (int p = 0; p < 3; p++) {  // Loop para imprimir cada coluna
+            printf("%d ", matriz3[o][p]);
+        }
+        printf("\n");
+    }
+
+    //|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+    int matriz4[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int target = 5;
+    int found = 0;
+
+    // Busca condicional do elemento alvo
+    for (int q = 0; q < 3; q++) {      // Loop externo para as linhas
+        for (int r = 0; r < 3; r++) {  // Loop interno para as colunas
+            if (matriz4[q][r] == target) {
+                printf("Elemento %d encontrado na posição (%d, %d)\n", target, q, r);
+                found = 1;
+                break;
+            }
+        }
+        if (found) break;
+    }
+ 
+    if (!found) {
+        printf("Elemento %d não encontrado na matriz\n", target);
+    }
+
+
 }
